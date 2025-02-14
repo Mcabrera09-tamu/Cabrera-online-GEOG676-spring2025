@@ -1,3 +1,9 @@
+#read txt file
+file = open(r"C:\Users\miche\Desktop\GIS Folder\Spring 2025\GIS Programming 676\Lab3files\shape.txt", "r")
+shape = file.readlines()
+for line in shape:
+    print(line)
+file.close()
 
 #create class
 class Shape():
